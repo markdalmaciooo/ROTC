@@ -29,6 +29,14 @@
         }
     </style>
 </head>
+
+<script>
+    function downloadCV() {
+    var cvLink = "https://drive.google.com/file/d/1k0TIvr_y7K-6Re064wijP7pYKbVnD3y7/view?usp=drive_link";
+    window.open(cvLink, '_blank');
+  }
+</script>
+
 <body>
     <h1 style="font-size: 56px; color: white">Website all about my ROTC trainings!</h1>
     <hr>
@@ -37,6 +45,11 @@
         Hello everyone, I am Mark T. Dalmacio!
     </marquee>
 
+    <marquee behavior="scroll" direction="left" class="marquee-text">
+        <button class="btn CV" onclick="downloadCV()">
+                see my resume&nbsp;<span><i class="fas fa-arrow-circle-down"></i></span>
+              </button>
+    </marquee>
     <img src="logo.jpg" alt="Mark Dalmacio co." style="width: 200px;">
 
     <div class="container">
